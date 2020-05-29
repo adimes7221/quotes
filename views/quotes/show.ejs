@@ -1,0 +1,10 @@
+<%var quoteKeys = Object.keys(quotes);%>
+<%var randomIndex = Math.floor(Math.random() * quoteKeys.length)%>
+<%var randomObject = quotes[quoteKeys[randomIndex]];%>
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4"><%= randomObject.quote %></h1>
+    <p class="lead"><%= randomObject.author%> - <em><%= randomObject.book%></em></p>
+  </div>
+</div>
