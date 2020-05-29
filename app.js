@@ -43,7 +43,7 @@ var quotes = {
 	},
 	q5: {
 		quote: "Things gravitate toward what they were intended for, what things gravitate toward is their goal.",
-		book: "Meditations",
+		book: "Meditation",
 		author: "Marcus Aurelius"
 	},
 	q6: {
