@@ -1,10 +1,9 @@
-<%var quoteKeys = Object.keys(quotes);%>
-<%var randomIndex = Math.floor(Math.random() * quoteKeys.length)%>
-<%var randomObject = quotes[quoteKeys[randomIndex]];%>
+ <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <link rel="stylesheet" href="/stylesheets/main.css">
+ <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
 
-<div class="jumbotron jumbotron-fluid">
+<div class="jumbotron jumbotron-fluid vertical-center" id="jumbo">
   <div class="container">
-    <h1 class="display-4"><%= randomObject.quote %></h1>
-    <p class="lead"><%= randomObject.author%> - <em><%= randomObject.book%></em></p>
+    <h1 class="display-4"><%= quote %></h1>
+    <p class="lead"><%= author%> - <em><%= book%></em></p>
   </div>
-</div>

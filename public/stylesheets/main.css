@@ -1,0 +1,48 @@
+/*body {
+	background-image: url("https://source.unsplash.com/g30P1zcOzXo/4928x3264");
+	background-size: auto;
+}*/
+
+body, html {
+  height: 100%;
+}
+
+body {
+  /* The image used */
+  background-image: url("https://source.unsplash.com/g30P1zcOzXo/4928x3264");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#jumbo {
+	background: rgba(200, 54, 54, 0); 
+}
+
+.jumbotron h1 {
+	color: white;
+	font-family: PT Sans Narrow;
+}
+
+.jumbotron p {
+	color: white;
+	font-family: PT Sans Narrow;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+img.resize {
+    max-width:100%;
+    height:auto;
+}
